@@ -1,3 +1,5 @@
+// this function allows you to transfer between 3 different wallets
+
 const { schedule } = require("@netlify/functions");
 const { ethers } = require("ethers")
 require("dotenv").config()
